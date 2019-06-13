@@ -4,6 +4,8 @@ from selenium import webdriver
 
 print('URL を入力')
 url = input()
+
+# 個人情報規約に同意する　の部分を参照
 print('初期値 を入力')
 number = input()
 number = int(number)
