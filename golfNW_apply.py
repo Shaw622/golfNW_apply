@@ -3,7 +3,7 @@
 from selenium import webdriver
 
 default = webdriver.Chrome()
-default.get(https://www.golfnetwork.co.jp/campaign/)
+default.get("https://www.golfnetwork.co.jp/campaign/")
 
 print('URL を入力')
 url = input()
